@@ -1,19 +1,23 @@
 Source: resize-tiny
-Section: unknown
+Section: comm
 Priority: optional
 Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Browser: https://salsa.debian.org/debian/resize-tiny
-#Vcs-Git: https://salsa.debian.org/debian/resize-tiny.git
+Vcs-Browser: https://github.com/dlitz/resize-tiny
+Vcs-Git: https://github.com/dlitz/resize-tiny.git
 
 Package: resize-tiny
 Architecture: any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
-Description: <insert up to 60 chars description>
- <Insert long description, indented with spaces.>
+Description: tiny version of xterm resize(1) command
+ This program uses xterm escape sequences to determine the size of the
+ current terminal window, then uses the response to set the tty size via
+ the TIOCSWINSZ ioctl.
+ .
+ It is primarily useful over serial lines when the xterm package is not
+ installed locally.
