@@ -125,6 +125,8 @@ main (int argc, char **argv)
        signal(SIGTERM, onintr);
        tcsetattr(tty, TCSADRAIN, &tio);
 
+       tcflush(tty, TCIFLUSH);  // flush input
+
        write(tty, getsize, strlen(getsize));
        readstring(ttyfp, buf, size);
        if(sscanf (buf, size, &rows, &cols) != 2) {
