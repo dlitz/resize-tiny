@@ -1,5 +1,8 @@
+*.o
 /debian/.debhelper/
 /debian/debhelper-build-stamp
 /debian/files
 /debian/resize-tiny.substvars
 /debian/resize-tiny/
+/resize
+/resize-static
