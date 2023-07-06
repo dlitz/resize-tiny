@@ -1,5 +1,5 @@
-resize-tiny (0.0.0) UNRELEASED; urgency=medium
+resize-tiny (0.0.1) bookworm; urgency=medium
 
   * Initial release.
 
- -- Darsey Litzenberger <dlitz@dlitz.net>  Wed, 05 Jul 2023 23:47:03 -0600
+ -- Darsey Litzenberger <dlitz@dlitz.net>  Thu, 06 Jul 2023 01:07:16 -0600
