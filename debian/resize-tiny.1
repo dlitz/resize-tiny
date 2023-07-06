@@ -1,0 +1,35 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" (C) Copyright 2023 Darsey Litzenberger <dlitz@dlitz.net>,
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH RESIZE-TINY 1 "July  5 2023"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+resize-tiny \- set environment and terminal settings to current xterm window size
+.SH SYNOPSIS
+.B resize-tiny
+.SH DESCRIPTION
+This program uses xterm escape sequences to determine the size of the
+current terminal window, then uses the response to set the tty size via
+the TIOCSWINSZ ioctl.
+.PP
+It is primarily useful over serial lines when the xterm package is not
+installed locally.
+.SH OPTIONS
+This program takes no options.
+.SH SEE ALSO
+.BR resize (1),
+.BR ioctl_tty (2).
