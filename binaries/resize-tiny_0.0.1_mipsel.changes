@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon,  7 Aug 2023 07:49:13 MDT
+Source: resize-tiny
+Binary: resize-tiny resize-tiny-dbgsym
+Architecture: mipsel
+Version: 0.0.1
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ resize-tiny - tiny version of xterm resize(1) command
+Checksums-Sha1:
+ a86f3131000737e156728b0398ec6d29d5d04086 6492 resize-tiny-dbgsym_0.0.1_mipsel.deb
+ cc5ae4e1c5246f616539c5df54e8500b82cfeed1 5227 resize-tiny_0.0.1_mipsel.buildinfo
+ 41bf22c3294ddbd7df5d3a56adeb7d40e0ee002a 6500 resize-tiny_0.0.1_mipsel.deb
+Checksums-Sha256:
+ 68374f040159bad713a236d8bc84dd6ada8858707782d3f9c236d5b4facb23a8 6492 resize-tiny-dbgsym_0.0.1_mipsel.deb
+ a6f9b6d9f71780553be91d4efd411d60f65d7bd481b246e3a9218a17a3cd2dd2 5227 resize-tiny_0.0.1_mipsel.buildinfo
+ 434748ddd999c90f779abc7e8bce3e93af811231875701fc2758c5fe813f3cfa 6500 resize-tiny_0.0.1_mipsel.deb
+Changes:
+ resize-tiny (0.0.1) bookworm; urgency=medium
+ .
+   * Initial release.
+Files:
+ 43414f32a9819a073b2aefa356996215 6492 debug optional resize-tiny-dbgsym_0.0.1_mipsel.deb
+ 9476fa20998a1c3ba2b1c8ae535c0e6d 5227 comm optional resize-tiny_0.0.1_mipsel.buildinfo
+ 583e8e0e2ea4a6b8be7b6215cb6baf1d 6500 comm optional resize-tiny_0.0.1_mipsel.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZND2bxAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkhzIA/0DcDNFLfK5wLor+ds3zUqQmkjHw9JUH+uEK
+Tim0L1mNAQDYe6bkE0I9ILNboINhGQ0TedO7U3CBaeauK1Vsnok7AQ==
+=QKuU
+-----END PGP SIGNATURE-----
