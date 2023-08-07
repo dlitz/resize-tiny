@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon,  7 Aug 2023 07:49:13 MDT
+Source: resize-tiny
+Binary: resize-tiny resize-tiny-dbgsym
+Architecture: s390x
+Version: 0.0.1
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ resize-tiny - tiny version of xterm resize(1) command
+Checksums-Sha1:
+ 60fde62f744808cbed5b1818f0d69f95ef9c3155 6444 resize-tiny-dbgsym_0.0.1_s390x.deb
+ 96741ac0fe1a83f324d8669474e1b8a7b5b752cb 5290 resize-tiny_0.0.1_s390x.buildinfo
+ 025864f845180dcab978d7bf7e6aa919be1e396a 6260 resize-tiny_0.0.1_s390x.deb
+Checksums-Sha256:
+ 8905d589fcc11303285ddebaecea1043622a331e49eb9bff535da82b27bfc5c2 6444 resize-tiny-dbgsym_0.0.1_s390x.deb
+ df4efe6e0e458659e29a1c9417a6e58d8e26a3e20ed1dfd639ac647ad21d270a 5290 resize-tiny_0.0.1_s390x.buildinfo
+ cbeb4149ffa7a64f64f9f5af060e82b298c21d6767500367f0b1cde0e01db3a4 6260 resize-tiny_0.0.1_s390x.deb
+Changes:
+ resize-tiny (0.0.1) bookworm; urgency=medium
+ .
+   * Initial release.
+Files:
+ 074c406d71aaeffb0b9ee853f3fb2ab8 6444 debug optional resize-tiny-dbgsym_0.0.1_s390x.deb
+ 1cc555a5c492f28a7be778e8d1c93230 5290 comm optional resize-tiny_0.0.1_s390x.buildinfo
+ 18f49e5c7a4ac1d6bdb61a160d379862 6260 comm optional resize-tiny_0.0.1_s390x.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZND2chAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkIVoBAJlMcOWa8jRML8gCqQGVG/EgvNSWO8Qifh85
+eggoP+m4AP9vJJd/Ivz9fAMi/2uPcPzMvlpAEAgDznETby35RwQMCQ==
+=PAj/
+-----END PGP SIGNATURE-----

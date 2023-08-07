@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon,  7 Aug 2023 07:49:13 MDT
+Source: resize-tiny
+Binary: resize-tiny resize-tiny-dbgsym
+Architecture: arm64
+Version: 0.0.1
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ resize-tiny - tiny version of xterm resize(1) command
+Checksums-Sha1:
+ e142ec1477bc720659c70e59af6535d764ac7f77 6644 resize-tiny-dbgsym_0.0.1_arm64.deb
+ fc5ecd206978c139cf9a21c03c2b041bc1154e4d 5340 resize-tiny_0.0.1_arm64.buildinfo
+ b465fe0c961b89dc279ecbf4b7b75accfcd4b6e0 6372 resize-tiny_0.0.1_arm64.deb
+Checksums-Sha256:
+ 94be2e79db6ca362ebe678071bd51486117e4ff7a114ffa45749df0e75d96f0d 6644 resize-tiny-dbgsym_0.0.1_arm64.deb
+ adf3c0bc55497285f5398bbaed08edca429e6773d1718723050616305b5d5c4c 5340 resize-tiny_0.0.1_arm64.buildinfo
+ 3da97b8ba49dd553a8893173c0b7a4d5c388cb30a7aaf69407630987a45c60fc 6372 resize-tiny_0.0.1_arm64.deb
+Changes:
+ resize-tiny (0.0.1) bookworm; urgency=medium
+ .
+   * Initial release.
+Files:
+ f8852ffd3239527bdc8c4ec10b85f02e 6644 debug optional resize-tiny-dbgsym_0.0.1_arm64.deb
+ e40570e14b15679fc447f0e6383369ec 5340 comm optional resize-tiny_0.0.1_arm64.buildinfo
+ 37e5ffef712beeef3d692e478a10510e 6372 comm optional resize-tiny_0.0.1_arm64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZND2YxAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSk7QEA/RuttxP7AaY/u/yUcnd/0YvjcVsNHxOXKNMR
+bhsg0BqIAQCNZTO2MagAooxEP4SeCQ+sn3zlH1vCSwiczy5BOYnNCg==
+=f76u
+-----END PGP SIGNATURE-----

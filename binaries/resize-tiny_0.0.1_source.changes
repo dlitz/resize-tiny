@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon,  7 Aug 2023 07:49:13 MDT
+Source: resize-tiny
+Architecture: source
+Version: 0.0.1
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Checksums-Sha1:
+ 6959e2f7c1edad0eb1597337761f3970881a9b47 937 resize-tiny_0.0.1.dsc
+ 31ce0fd74d5cc3b7a08edfba61533fdd393d0579 4884 resize-tiny_0.0.1.tar.xz
+ 37f612495d332b44704866c8b73a79c9a24e0e55 7145 resize-tiny_0.0.1_source.buildinfo
+Checksums-Sha256:
+ 6f4ca5f16fc9ff83b09428f2c4e030808fb5d9314eae1e35d3d939ce142a4167 937 resize-tiny_0.0.1.dsc
+ af2126b6469c3ab8364e92b6b0f11389869b70dcf96635693fdaa24888381d53 4884 resize-tiny_0.0.1.tar.xz
+ 2611beef04bcc5acebe63951b9413aa37c82294cb7e22ede1d32b2afae31bb30 7145 resize-tiny_0.0.1_source.buildinfo
+Changes:
+ resize-tiny (0.0.1) bookworm; urgency=medium
+ .
+   * Initial release.
+Files:
+ cc5440989499daa18ea2a91e4fcab615 937 comm optional resize-tiny_0.0.1.dsc
+ cce2f6412e3893f328748942df439e9a 4884 comm optional resize-tiny_0.0.1.tar.xz
+ 477b0353a23ce39ab59e18d36bd25f01 7145 comm optional resize-tiny_0.0.1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZND2dBAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSk2TEBALLUOivnxvPdBuadAffApWlaUDUcsHERmDbi
+XVgZu5KfAQCe6zGBYXa84mEOzlHzD4VV+WqXyP4fvVfllOz0ECKRAQ==
+=lvd9
+-----END PGP SIGNATURE-----

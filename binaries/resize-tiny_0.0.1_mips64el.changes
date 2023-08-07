@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon,  7 Aug 2023 07:49:13 MDT
+Source: resize-tiny
+Binary: resize-tiny resize-tiny-dbgsym
+Architecture: mips64el
+Version: 0.0.1
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ resize-tiny - tiny version of xterm resize(1) command
+Checksums-Sha1:
+ 7449fb37b02adafe829d0716c75b28683c708ead 6864 resize-tiny-dbgsym_0.0.1_mips64el.deb
+ cd1f391166b5e4903d0f9d768bb037e61c2ae025 5250 resize-tiny_0.0.1_mips64el.buildinfo
+ ec4ec4f1783d780066398939199db2a2cca290da 6600 resize-tiny_0.0.1_mips64el.deb
+Checksums-Sha256:
+ ce273ee415fb88b3fe90a02e2dea6d0d3199b5482127b95f847bfee6ea16c4b8 6864 resize-tiny-dbgsym_0.0.1_mips64el.deb
+ b8c09371631c7bdd1658df12ed3c5c2bbcec761386899b14ab9a81e1fa4fb9fa 5250 resize-tiny_0.0.1_mips64el.buildinfo
+ 642d16019baabb83062a46eb408e3aef58a16f27577d6d514e5d946670e32315 6600 resize-tiny_0.0.1_mips64el.deb
+Changes:
+ resize-tiny (0.0.1) bookworm; urgency=medium
+ .
+   * Initial release.
+Files:
+ 746b04230aff6d59661f9adc4dbc0865 6864 debug optional resize-tiny-dbgsym_0.0.1_mips64el.deb
+ 3b97885f0124b836ba9d7068c44201cf 5250 comm optional resize-tiny_0.0.1_mips64el.buildinfo
+ aeda42523241743da9a21490589be611 6600 comm optional resize-tiny_0.0.1_mips64el.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZND2axAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkvoQBALG14WKM41KzcnVfxvceowJO5Yh1X+RF+Dyk
+h1Dhz+FEAQCdqdDJTsra1QeIxq/RetwqWH22rdbJOqoHLjiIVwhQAw==
+=+Y7f
+-----END PGP SIGNATURE-----

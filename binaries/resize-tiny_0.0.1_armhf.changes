@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon,  7 Aug 2023 07:49:13 MDT
+Source: resize-tiny
+Binary: resize-tiny resize-tiny-dbgsym
+Architecture: armhf
+Version: 0.0.1
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ resize-tiny - tiny version of xterm resize(1) command
+Checksums-Sha1:
+ ecdf0c9c5d4f8e5f0baec8990a18e2c5acaa14ef 6956 resize-tiny-dbgsym_0.0.1_armhf.deb
+ e2ce934ce21ec9ca179c629f2415911368d1a65e 5271 resize-tiny_0.0.1_armhf.buildinfo
+ 912eada63cc6a22bc37409877440ada8d3668212 6364 resize-tiny_0.0.1_armhf.deb
+Checksums-Sha256:
+ 6447cc97a7836156a3733b15fc3ef50b521b72b5f166bac383d28cdac7e89ccd 6956 resize-tiny-dbgsym_0.0.1_armhf.deb
+ 948c2b39aed90030e055aa2c51ae9424b19aaab156e96718ce94a531cc831838 5271 resize-tiny_0.0.1_armhf.buildinfo
+ 527b13c7b51b8852579a42b2c71f9c88ed1c0c0ec55586b6f977a8e699556c6f 6364 resize-tiny_0.0.1_armhf.deb
+Changes:
+ resize-tiny (0.0.1) bookworm; urgency=medium
+ .
+   * Initial release.
+Files:
+ 95c81aa8589cb5ecc3d81ffc7dde3aa2 6956 debug optional resize-tiny-dbgsym_0.0.1_armhf.deb
+ 041f6dde6f408cd670218e284ca4ece5 5271 comm optional resize-tiny_0.0.1_armhf.buildinfo
+ 24950989bf6f54fd0c103b806ccbd006 6364 comm optional resize-tiny_0.0.1_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZND2ZxAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkp1kA/j9DW83Fkq4lX6fC/6/NDshnMCb/D4YI8XJc
+WMg8F2XKAQD8QAB2mCDL4ALFcb0m4rqO6P2eyfw4+AsW1zbaKp2EBg==
+=S1Jb
+-----END PGP SIGNATURE-----

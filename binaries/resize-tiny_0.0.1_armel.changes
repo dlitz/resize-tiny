@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon,  7 Aug 2023 07:49:13 MDT
+Source: resize-tiny
+Binary: resize-tiny resize-tiny-dbgsym
+Architecture: armel
+Version: 0.0.1
+Distribution: dlitz-aptly
+Urgency: medium
+Maintainer: Darsey Litzenberger <dlitz@dlitz.net>
+Changed-By: Darsey Litzenberger <dlitz@dlitz.net>
+Description:
+ resize-tiny - tiny version of xterm resize(1) command
+Checksums-Sha1:
+ 7eb4e6035d3cb7626222ceff277e6a4cbfbd41f3 6828 resize-tiny-dbgsym_0.0.1_armel.deb
+ b4af9aaea8a083282eb49f26c4eead208ba45d42 5269 resize-tiny_0.0.1_armel.buildinfo
+ a7c8302b06dbed515e52930e762946c67bd26a50 6356 resize-tiny_0.0.1_armel.deb
+Checksums-Sha256:
+ 23a9240c6bacf56c5292d3ba2ebadeda8e370546f5ef9de4c4e25ac19e1a0356 6828 resize-tiny-dbgsym_0.0.1_armel.deb
+ 1342fab9c0209835e605de5feb485ef1cdab0f88b436161a30d48e7c608ac304 5269 resize-tiny_0.0.1_armel.buildinfo
+ f60593a7963aa4e5e53a6775abb823e51debe853abec8e4eb8a7cea42b04be83 6356 resize-tiny_0.0.1_armel.deb
+Changes:
+ resize-tiny (0.0.1) bookworm; urgency=medium
+ .
+   * Initial release.
+Files:
+ 705b837fdf34e0e88027473db5c8cdf6 6828 debug optional resize-tiny-dbgsym_0.0.1_armel.deb
+ e9139e2ba5bfb536015bf1c107b24016 5269 comm optional resize-tiny_0.0.1_armel.buildinfo
+ e8b56b1c9e78987c3a1835cb197e54f3 6356 comm optional resize-tiny_0.0.1_armel.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iIYEARYKAC4WIQTWkd0xNWtIORg6n8DjQLK2WJpUpAUCZND2ZRAcZGxpdHpAZGxp
+dHoubmV0AAoJEONAsrZYmlSkyEMA/0nj3Mr33gugUQofEqZkNzrc+JSR5GsAxIaT
+srHgwaVBAQCEKBxaCnCPtjyN5dYhuesp0H7aiNdwu0b/i7ASoIDpAg==
+=ciw5
+-----END PGP SIGNATURE-----
